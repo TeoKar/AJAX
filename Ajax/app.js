@@ -19,13 +19,14 @@ nappi.addEventListener('click', (evt) => {
 
 function naytaKuva(haku) {
 
+//Fixed this part of the code
   try {
     node.innerHTML = "";
   }
   catch (err){
     console.log(err);
   }
-
+//end of fixed part
 
 
     let x = 0;
